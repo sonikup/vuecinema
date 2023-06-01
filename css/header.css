@@ -93,3 +93,21 @@ position: relative;
     width: 100%;
     
 }
+@media screen and (max-width:768px) {
+    .navbar__wrap{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .navbar__list-item{
+        padding: 20px 0;
+    }
+    .navbar__list-item-link:hover::after{
+        bottom: -20px;
+    }
+}
+@media screen and (max-width:360px) {
+    .navbar__list{
+        gap: 15px;
+    }
+}
+
