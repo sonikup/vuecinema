@@ -33,3 +33,22 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.btn {
+    width: 166px;
+    height: 46px;
+    outline: none;
+    border: none;
+    background: var(--lightor);
+    color: var(--black);
+    border-radius: 5px;
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: var(--bg);
+    color: var(--white);
+}
