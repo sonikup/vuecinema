@@ -1,0 +1,23 @@
+.films{
+    position: relative;
+    padding: 60px 0 77px;
+}
+.films__card{
+    background: linear-gradient(180deg, rgba(241, 129, 40, 0.35) 0%, rgba(0, 0, 0, 0.71) 51.04%, rgba(7, 15, 25, 0.8) 100%);
+    position: relative;
+    max-width: 255px;
+    width: 100%;
+    height: 366px;
+}
+.films__card-body{
+    padding: 54px 15px 18px;
+    height: 100%;
+}
+.film__card-img{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
